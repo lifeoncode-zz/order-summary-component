@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #e0e8ff;
+}
+
+.main-bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.container .image img {
+  width: 100%;
+}
+
+.container .text {
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.container .text h1 {
+  font-size: 25px;
+  color: #1f2f56;
+}
+
+.container .text p {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #7280a7;
+  margin: 20px 0;
+}
+
+.container .text .plan {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f5f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .text .plan svg {
+  margin-right: 10px;
+}
+
+.container .text .plan div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .text .plan span {
+  font-size: 14px;
+  color: #7280a7;
+}
+
+.container .text .plan span:first-child {
+  color: #1f2f56;
+  font-weight: 700;
+}
+
+.container .text .plan a {
+  font-size: 14px;
+  color: #3829e0;
+}
+
+.container .text button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #7280a7;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 15px  0;
+}
+
+.container .text button.cta {
+  background-color: #3829e0;
+  color: #fff;
+}
+
+@media only screen and (max-width: 410px) {
+  .container .text {
+    padding: 20px 30px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .container .text {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-height: 620px) {
+  .container .text {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .container {
+    max-width: 95%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
